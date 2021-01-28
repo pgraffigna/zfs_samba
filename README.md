@@ -1,11 +1,13 @@
 # zfs_samba
 
-Script en bash para instalar ZFS en Ubuntu + crear un POOL de discos.
+Script en bash para instalar ZFS + crear un POOL + crear VOLUMENES + creación de usuarios + creación de compartidas
+
+---
+Scripts
+- 01-zfs_install.sh
+- 02-creación_usuarios.sh
+- 03-zfs_samba_shares.sh
 
 ---
 Notas
-
-- Instalación del servicio SAMBA 
-- creación de DATASETS
-- creación de SNAPSHOTS
-- creación de recursos compartidos vía ZFS
+- 04-zfs_snapshots
